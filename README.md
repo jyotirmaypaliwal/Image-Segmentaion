@@ -12,12 +12,13 @@ Dataset - https://www.kaggle.com/dansbecker/cityscapes-image-pairs
 #### The above given figure is the basic structure of the UNet model and we applied the same with some modifications. 
 
 ## Training
-#### At first I trained the model using my own written UNet given in the file, "UNet.py" but it was not giving me the results I wanted. So I borrowed the model from https://github.com/jvanvugt/pytorch-unet which was working exceptionally well. 
+#### At first I trained the model using my own written UNet given in the file, "UNet.py" but it was not giving me the results I wanted. So I borrowed the model from https://github.com/jvanvugt/pytorch-unet which was working exceptionally well. For the optimizer, I used Adam and cross entropy loss as my loss function. 
 
 #### I trained the model for a total of 50 epochs and training took about 2 hours.
 
 ## Result
-The end result was quite satisfying and is shown below. 
+#### The end result was quite satisfying and is shown below. 
+
 <img width="441" alt="Screenshot 2021-10-14 075310" src="https://user-images.githubusercontent.com/27720480/137239904-d6b666ee-3122-4dc9-83f5-d6878c7f4fa1.png">
 
 ## Note
