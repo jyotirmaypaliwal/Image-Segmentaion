@@ -1,6 +1,6 @@
 # Image-Segmentaion
-#### I did image segmentation on cityscapes data taken from the below given link using UNet architecture. The dataset contained 2975 images in the training set and 500 images in 
-the val set. 
+#### I did image segmentation on cityscapes data taken from the below given link using UNet architecture. The dataset contained 2975 images in the training set and 500 images in the val set. 
+
 
 Dataset - https://www.kaggle.com/dansbecker/cityscapes-image-pairs
 
