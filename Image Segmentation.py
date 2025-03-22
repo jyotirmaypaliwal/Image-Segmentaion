@@ -1,4 +1,4 @@
-# System 
+# System libraries
 import os
 import sys
 

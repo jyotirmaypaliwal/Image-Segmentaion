@@ -6,7 +6,7 @@ Dataset - https://www.kaggle.com/dansbecker/cityscapes-image-pairs
 
 #### The training images and their masks were combined in one image of dim 256&512 so we first had to separate those images. Also the masks were not in one hot encoded form so I first applied Kmeans to form 8 different clusters and then encoded the segmentation masks according to them. 
 
-## UNet 
+## UNet Model
 
 ![1 f7YOaE4TWubwaFF7Z1fzNw](https://user-images.githubusercontent.com/27720480/137239380-84dc6694-3b19-4709-a797-b5bf4b0311d9.png)
 #### The above given figure is the basic structure of the UNet model and we applied the same with some modifications. 

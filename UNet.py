@@ -1,4 +1,5 @@
- def double_conv(in_c, out_c):
+#double conv 
+def double_conv(in_c, out_c):
      conv = nn.Sequential(
          nn.Conv2d(in_c, out_c, kernel_size=3),
          nn.ReLU(inplace=True),
